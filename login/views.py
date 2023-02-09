@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def methodinfo(request):  
-    return HttpResponse("Http request is:"+request.method)  
+    return HttpResponse("Hii request is:"+request.method)  
